@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=
 X_train = X_train / 255.0
 X_test = X_test / 255.0
 
-# Reshape the input features
+# Reshape the input features....
 X_train = X_train.values.reshape(-1, 24, 24, 1)
 X_test = X_test.values.reshape(-1, 24, 24, 1)
 
